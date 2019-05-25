@@ -1,10 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.smartpermission">
 
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,13 +8,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-
-        <activity
-            android:name="com.smartpermission.PermissionActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:launchMode="standard"
-            android:theme="@style/permission_PermissionActivity"
-            android:windowSoftInputMode="stateAlwaysHidden"/>
 
         <!--<activity-->
             <!--android:name="com.com.smartpermission.PermissionActivity"-->
